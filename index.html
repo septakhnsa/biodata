@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Riwayat Hidup</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .profile-img {
+            width: 250px; /* Sesuaikan ukuran gambar */
+            height: auto; /* Mempertahankan rasio aspek */
+            border-radius: 50%; /* Membuat gambar berbentuk bulat */
+        }
+        .data-pribadi {
+            display: flex; /* Menyusun foto dan data dalam satu baris */
+            align-items: flex-start; /* Mengatur posisi vertikal data */
+        }
+        .data-pribadi .details {
+            margin-left: 30px; /* Menggeser informasi lebih ke kanan */
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: column; /* Menyusun item dalam kolom */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Biodata Riwayat Hidup</h1>
+        
+        <div class="card mt-4">
+            <div class="card-header">
+                <h2>Data Pribadi</h2>
+            </div>
+            <div class="card-body">
+                <div class="data-pribadi">
+                    <img src="img/foto.jpg" alt="Foto Profil" class="profile-img mb-3">
+                    <div class="details">
+                        <p><strong>Nama:</strong> [Nama Anda]</p>
+                        <p><strong>Tanggal Lahir:</strong> [Tanggal Lahir Anda]</p>
+                        <p><strong>Alamat:</strong> [Alamat Anda]</p>
+                        <p><strong>Email:</strong> [Email Anda]</p>
+                        <p><strong>No. Telepon:</strong> [Nomor Telepon Anda]</p>
+                        <p><em>Keterangan: [Tambahkan keterangan di sini]</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-header">
+                <h2>Riwayat Pendidikan</h2>
+            </div>
+            <div class="card-body flex-container">
+                <div>[Tahun] - [Nama Sekolah/Universitas] - [Gelar yang Diperoleh]</div>
+                <div>[Tahun] - [Nama Sekolah/Universitas] - [Gelar yang Diperoleh]</div>
+                <div>[Tahun] - [Nama Sekolah/Universitas] - [Gelar yang Diperoleh]</div>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-header">
+                <h2>Pengalaman Kerja</h2>
+            </div>
+            <div class="card-body flex-container">
+                <div>[Tahun] - [Nama Perusahaan] - [Jabatan]</div>
+                <div>[Tahun] - [Nama Perusahaan] - [Jabatan]</div>
+                <div>[Tahun] - [Nama Perusahaan] - [Jabatan]</div>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-header">
+                <h2>Keterampilan</h2>
+            </div>
+            <div class="card-body flex-container">
+                <div>[Keterampilan 1]</div>
+                <div>[Keterampilan 2]</div>
+                <div>[Keterampilan 3]</div>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-header">
+                <h2>Hobi</h2>
+            </div>
+            <div class="card-body flex-container">
+                <div>[Hobi 1]</div>
+                <div>[Hobi 2]</div>
+                <div>[Hobi 3]</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
